@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Edicación</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <svg style="border: 1px solid" width="200" height="100" >
+            <image width="200" height="100" xlink:href="resources/img/logo.svg"></image>
+            </svg>
+        </header>
+
+        <h1>Hoja de Vida</h1>
+        <h2>Datos Personales</h2>
+        <h3>Nombres: <label>Romeo</label></h3>
+        <h3>Apellidos: <label>Arce Perez</label></h3>
+        <h3>Fecha de Nacimiento: <label>15/06/19982</label></h3>
+        <h3>Lugar de Nacimiento: <label>Mexico</label></h3>
+
+        <a href="index.html">inicio</a><br>
+        <a href="educacion.html">Educación</a><br>
+        <a href="experiencia.html">Experiencia</a><br>
+
+        <h2>Educación</h2>
+        <table border="0" width="40%">
+            <tr>
+                <th width="10%" height="30">Año</th>
+                <th width="50%" height="30">Institucion</th>
+                <th width="30%" height="30">Lugar</th>
+                <th width="10%" height="30">¿Terminó?</th>
+            </tr>
+            <tr>
+                <td width="10%" height="30">1994</td>
+                <td width="50%" height="30">Secundaria General</td>
+                <td width="30%" height="30">Mexico</td>
+                <td width="10%" height="30">Si</td>
+            </tr>
+            <tr>
+                <td width="10%" height="30">1997</td>
+                <td width="50%" height="30">Prepa CBTis</td>
+                <td width="30%" height="30">Mexico</td>
+                <td width="10%" height="30">Si</td>
+            </tr>
+            <tr>
+                <td width="10%" height="30">2001</td>
+                <td width="50%" height="30">Universidad Mexicana</td>
+                <td width="30%" height="30">Mexico</td>
+                <td width="10%" height="30">Si</td>
+            </tr>
+        </table>
+        <h2>Agregar Estudios</h2>
+        <form>
+            <label>Año:
+                <select>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                </select>
+            </label><br>
+            <label>Institución:
+                <input type="text" required/>
+            </label><br>
+            <lable>Lugar:
+                <textarea rows="2"></textarea>
+            </lable><br>
+            <label>¿Culminó?
+                <input type="radio" value="Si"/>Si
+                <input type="radio" value="No"/>No
+            </label><br>
+            <input type="submit" value="Enviar"/>
+        </form>
+        <footer>
+            <p>@Derechos Reservados</p>
+            <ul>
+                <li><strong>Email: </strong><a href="#">rarcep@gmail.com</a></li>
+                <li><strong>Teléfono: </strong>811-111-3452</li>
+                <li><strong>Twitter: </strong><a href="https://twitter.com/rarcepp" target="_blank">@rarcepp</a></li>
+                <li><strong>FaceBook: </strong><a href="http://facebook.com/romeo.arce.5" target="_blank">http://facebook.com/romeo.arce.5</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
